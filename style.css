@@ -1,0 +1,439 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.cs-section-header {
+  width: 70%;
+  margin: 0 auto;
+}
+.cs-header {
+  background: linear-gradient(rgba(7, 2, 17, 0.5), rgba(0, 0, 0, 0.5)),
+    url(image/Banner\ Image.png);
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  background-size: cover;
+  margin-top: 3%;
+}
+
+.cs-header-text {
+  text-align: center;
+  align-items: center;
+  padding-top: 10%;
+}
+.cs-header-text1 {
+  color: #fff;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+.cs-header-text2 {
+  color: #fff;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+  font-size: 72px;
+  padding: 0px 20% 185px 20%;
+  margin: 16px;
+}
+/*discount*/
+.cs-discount-offer {
+  margin-top: 177px;
+}
+.cs-discount-offer-text {
+  text-align: center;
+}
+#cs-text-off {
+  color: #f00;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  font-size: 88px;
+  margin: 0px;
+}
+#cs-text-holyday {
+  color: #f00;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  margin-top: 50px;
+}
+#cs-text-CATEGORIES {
+  color: black;
+  font-size: 48px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700 !important;
+  margin: 0px;
+}
+
+.cs-discount-offer-image {
+  padding-top: 60px;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: center;
+}
+/*midnight*/
+.cs-midnight {
+  width: 68%;
+  margin: 0 auto;
+  padding: 100px;
+}
+.cs-midnight-div {
+  background: url(image/Vectorrr.png);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+.cs-midnight-text {
+  padding: 50px;
+  color: #fff;
+}
+.cs-midnight-text1 {
+  font-size: 72px;
+  font-family: "Merriweather", serif;
+}
+.cs-midnight-text2 {
+  font-size: 18px;
+  font-family: "Inter", serif;
+}
+.cs-midnight-button {
+  padding: 10px 16px;
+  background-color: transparent;
+  font-size: 18px;
+  font-family: "Inter", serif;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 50px;
+}
+.cs-midnight-button:hover {
+  background-color: transparent;
+  color: #fff;
+  transition: 0.5s;
+  border: 1px solid #fff;
+  border-radius: 50px;
+}
+.cs-midnight-image {
+  padding: 50px;
+}
+.cs-midnight-image img {
+  width: 85%;
+}
+/* now */
+.cs-now {
+  padding: 0px 16%;
+}
+.cs-now-div {
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 78%
+  );
+}
+.cs-now-text {
+  text-align: center;
+  padding: 85px;
+}
+.cs-now-text p {
+  color: black;
+  font-size: 32px;
+  font-family: "Inter", serif;
+  font-weight: bold;
+}
+.cs-now-text p span {
+  color: red;
+}
+.cs-now-text button {
+  padding: 16px 32px;
+  background-color: red;
+  color: #fff;
+  font-family: "Inter", serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+}
+/* offer */
+.cs-offer-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  width: 64%;
+  padding: 70px 0px;
+}
+
+.cs-offer-div-div1 {
+  padding: auto;
+}
+.cs-offer-div-div2 {
+  padding: 0 20px;
+}
+.cs-offer-div-div3 {
+  padding: 0 20px;
+}
+.cs-offer-div-div2-img-border1 {
+  border-radius: 463px;
+  border: 15px solid #f00;
+}
+.cs-offer-div-div2-img-border2 {
+  border-radius: 463px;
+  border: 30px solid #fff;
+}
+#cs-offer-div-div1-text1 {
+  color: #f00;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 24px;
+  text-align: left;
+}
+#cs-offer-div-div1-text2 {
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: "Merriweather";
+}
+#cs-offer-div-div1-text3 {
+  color: black;
+  font-family: "Inter";
+  font-size: 20px;
+}
+#cs-offer-div-div3-text1 {
+  color: #f00;
+  font-family: "Inter";
+  font-size: 48px;
+}
+#cs-offer-div-div3-text2 {
+  color: black;
+  font-family: "Inter";
+  font-size: 20px;
+}
+/* Sale */
+.cs-Sale {
+  width: 60%;
+  margin: 0 auto;
+}
+.cs-Sale-text {
+  text-align: center;
+}
+.cs-Sale-text1 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 80px;
+}
+.cs-Sale-text2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin: 20px;
+}
+.cs-Sale-text3 {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+  margin: 0;
+}
+.cs-Sale-image {
+  width: 68%;
+  margin: 0 auto;
+  padding: 10% 0px;
+}
+.cs-Sale-image-div1 {
+  display: flex;
+}
+.cs-Sale-image-div1-img1 img {
+  width: 50%;
+  z-index: 1;
+}
+.cs-Sale-image-div1-img2 img {
+  margin-left: -107px;
+  margin-top: 94px;
+  position: absolute;
+  width: 220.048px;
+  height: 220.119px;
+  flex-shrink: 0;
+}
+.cs-Sale-image-div1-img3 {
+  margin-bottom: -5px;
+}
+.cs-Sale-image-div1-img3 img {
+  width: 429px;
+  height: 100%;
+  flex-shrink: 0;
+}
+.cs-Sale-image-div1-img1 {
+  position: absolute;
+  margin-top: 257px;
+  margin-left: 93px;
+}
+.cs-Sale-image-div2 img {
+  position: absolute;
+  z-index: -1;
+  width: 1226px;
+  margin: 0 auto;
+  border-radius: 16px 0px 16px 16px;
+}
+.cs-Sale-image-div1-img2-3 {
+  margin-left: 797px;
+}
+/* Portfolio */
+
+.cs-Portfolio-text {
+  padding: 85px 16%;
+}
+.cs-Portfolio-text1 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+}
+.cs-Portfolio-text2 {
+  color: #070211;
+  font-family: "Merriweather";
+  font-size: 40px;
+  margin: 0;
+}
+.cs-Portfolio-text3 {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter";
+  font-size: 16px;
+}
+.cs-Portfolio-image-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cs-Portfolio-image-div img {
+  width: 20%;
+  height: 100%;
+  padding: 10px;
+}
+/* Subscribe */
+.cs-Subscribe {
+  width: 62%;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.cs-Subscribe-div {
+  padding: 70px;
+  text-align: center;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+.cs-Subscribe-div-div1 img {
+  width: 11%;
+  height: 100%;
+}
+.cs-Subscribe-div-div1 h1 {
+  color: #070211;
+  text-align: center;
+  font-family: "Merriweather";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.cs-Subscribe-div-div1 p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 160% */
+}
+.cs-Subscribe-div-div2 input {
+  padding: 13px 65px;
+  border: none;
+  border-radius: 29px 0px 0px 29px;
+}
+::placeholder {
+  color: #bbb;
+}
+.cs-Subscribe-div-div2 button {
+  background: red;
+  color: #fff;
+  padding: 13px 30px;
+  border: none;
+  border-radius: 0px 29px 29px 0px;
+}
+/* footer */
+.cs-footer {
+  background: #070211;
+  color: #fff;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; 
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.cs-footer-div1 {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.cs-footer-div1-div-div {
+  display: flex;
+}
+.cs-footer-div1-div-div img {
+  height: 20px;
+  width: 20px;
+  padding: 10px;
+}
+.cs-footer-div1-div-div {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.cs-footer-div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+.cs-footer-div2 img {
+  padding: 10px;
+}
+.cs-footer-div3 {
+  display: flex;
+  justify-content: space-between;
+}
+/**hr*/
+.pr-re{
+  position: relative;
+}
+.cs-footer-div1::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #232323;
+  position: absolute;
+  bottom: -10px;
+  transform: translateX(0%);
+}
+.cs-footer-div2::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #232323;
+  position: absolute;
+  bottom: -10px;
+  transform: translateX(0%);
+}
